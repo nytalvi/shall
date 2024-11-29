@@ -1,0 +1,12 @@
+[package]
+name = "shall"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha-1 = "0.10.1"
+sha2 = "0.10.7"
+md-5 = "0.10.5"
+hex = "0.4.3"
+clap = { version = "4.4.6", features = ["derive"] }
+colored = "2.0.4"
